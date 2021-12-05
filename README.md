@@ -3,6 +3,11 @@
 <code>
   GWi"<End>"<Esc>ZZ
 //2
+  <code>
+    :%s/sublime\|emacs/vim/g<CR>ZZ
+ //3
+    <CODE>
+      :4<CR>yawO// TODO<Esc>BPyyjpwdwwywbPZZ
   
 //5
 <CODE>
