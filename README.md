@@ -1,20 +1,18 @@
 # vimgolfcode
 ### 1번코드
-![image](https://user-images.githubusercontent.com/94737280/144739820-e7958374-47ba-438d-a35c-457ff9d7b1e4.png)
-  
+![image](https://user-images.githubusercontent.com/94737280/144749341-3e02ff5f-b06b-4ca6-bbdc-e39e04d9dea0.png)  
 코드설명: G:맨뒤로 W:단어의 시작 위치로 커서 이동 i:현재 커서가 위치한 문자의 앞에 ("를 Insert)후 <End>키로 맨마지막칸으로 이동후 "를 insert해주는 코드입니다.
  ![vimgolf1_gif gif_000001920](https://user-images.githubusercontent.com/94737280/144749168-48bf3c04-a43e-4a65-b7ce-d85c400f1abc.gif)
 
   
 ### 2번코드
-![image](https://user-images.githubusercontent.com/94737280/144739814-45e806c2-0584-4fe4-8c18-e2500e2fadd2.png)
-  
+![image](https://user-images.githubusercontent.com/94737280/144749385-74c47350-fa54-4508-a921-7f780246da34.png)  
 
 s를 이용하여 sublime과 emacs로된 단어를 vim 으로 바꿔주는 코드입니다.
    :%![vimgolf2_gif gif_000001560](https://user-images.githubusercontent.com/94737280/144749173-34f0e158-9217-49af-ae53-c2bca5328b02.gif)
   
 ### 3번코드
-   ![image](https://user-images.githubusercontent.com/94737280/144739807-dc166499-ca08-426a-b3e0-09d654921a02.png)
+![image](https://user-images.githubusercontent.com/94737280/144749416-a50189ab-50ae-4fa5-9ec6-251280a045c3.png)
   
   :4<CR>을 이용하여 4번째줄로 이동한다음 yaw를 이용하여 Version(한단어)를 복사한뒤 
   P를 이용하여 // TODO 사이에 붙여넣어주고 yy를 이용하여 // Version TODO를 복사하여 P를 이용해 문장사이에 붙여넣은뒤 
@@ -24,8 +22,7 @@ s를 이용하여 sublime과 emacs로된 단어를 vim 으로 바꿔주는 코�
   
   
 ### 4번코드
-  ![image](https://user-images.githubusercontent.com/94737280/144739797-636f4083-3043-4bef-bf97-2fbfe553d611.png)
-
+![image](https://user-images.githubusercontent.com/94737280/144749435-4ee00908-c8e4-43e7-8b84-1c7031f9f32f.png)
    
   
   :%s/y1/abs(y1)<CR>를 이용하여 y1이란 단어를 abs로 바꿔준다음 
@@ -40,7 +37,7 @@ s를 이용하여 sublime과 emacs로된 단어를 vim 으로 바꿔주는 코�
   
 ### 5번코드
   
-  ![image](https://user-images.githubusercontent.com/94737280/144739780-6d643c14-d858-4e67-a9c0-7137db91c7d8.png)
+![image](https://user-images.githubusercontent.com/94737280/144749456-dc687c67-09a2-4b4d-93ba-30157e66dd3d.png)
 
   
   :8<CR><C-V><Up><Up><Right><Right><Right><Right>를 이용하여 8번째줄부터 블럭 단위로 여러 줄 선택한다음
